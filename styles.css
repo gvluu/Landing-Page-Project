@@ -13,7 +13,9 @@ body {
 
 .Top-Left {
     font-weight: bold;
-    margin: 1em 4em;
+    color:#f9faf8;
+    font-size: 24px;
+    margin: 1em 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,19 +23,20 @@ body {
 
 ul {
     list-style-type: none;
-    font-size: 12px;
+    font-size: 18px;
+    color: #e5e7eb;
     display: flex;
     justify-content: space-around;
-    margin: 1em 4em;
+    margin: 1em 0;
     padding: 20px;
     gap: 30px;
     align-items: center;
     justify-content: center;
 }
 
-.Header, .One {
+.Navy {
     background-color: #1f2937;
-    color: white;
+    padding: 80px;
 }
 
 .One {
@@ -43,5 +46,17 @@ ul {
 
 .Left-Side {
     display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
+.Hero {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.Sub-Text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
