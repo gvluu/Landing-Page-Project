@@ -6,16 +6,21 @@ body {
     flex-direction: column;
 }
 
+.Navy {
+    background-color: #1f2937;
+    padding: 0px 80px;
+}
+
 .Header {
     display: flex;
     justify-content: space-between;
+    padding: 10px 0px;
 }
 
 .Top-Left {
     font-weight: bold;
     color:#f9faf8;
     font-size: 24px;
-    margin: 1em 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,27 +32,22 @@ ul {
     color: #e5e7eb;
     display: flex;
     justify-content: space-around;
-    margin: 1em 0;
-    padding: 20px;
-    gap: 30px;
+    gap: 20px;
     align-items: center;
     justify-content: center;
-}
-
-.Navy {
-    background-color: #1f2937;
-    padding: 80px;
 }
 
 .One {
     display: flex;
     justify-content: space-around;
+    gap: 60px;
+    padding: 80px 0px;
 }
 
 .Left-Side {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .Hero {
@@ -59,4 +59,17 @@ ul {
 .Sub-Text {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.Sign {
+    background: #3882F6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    padding: 6px 20px;
+}
+
+.Pic {
+    display: flex;
 }
