@@ -35,3 +35,13 @@ ul {
     background-color: #1f2937;
     color: white;
 }
+
+.One {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Left-Side {
+    display: flex;
+}
+
