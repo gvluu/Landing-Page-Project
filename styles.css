@@ -137,13 +137,37 @@ ul {
 .Second-White {
     display: flex;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    gap: 20px;
+    margin: 60px;
+    padding: 30px 70px;
+    gap: 100px;
     background: #3882F6;
     color:#f9faf8;
-    border-radius: 10px;
-    width: 300px;
+    border-radius: 5px;
     justify-content: center;
     align-items: center;
+}
+
+.Action {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.Subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.Sign-Up {
+    border-radius: 5px;
+    color: white;
+    box-shadow: none;
+    border-color: white;
+    border-style: solid;
+    /* browser auto-shades border to two-tone.
+    override by using 'border-style' */
+    background-color: #3882F6;
+    font-size: 18px;
+    padding: 8px 30px;
+    display: flex;
+    flex-shrink: 0;
 }
