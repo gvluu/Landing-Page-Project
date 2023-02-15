@@ -73,3 +73,24 @@ ul {
 .Pic {
     display: flex;
 }
+
+.Two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 60px 200px;
+    gap: 50px;
+}
+
+.Random {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.Squares {
+    display: flex;
+    justify-content: center;
+}
