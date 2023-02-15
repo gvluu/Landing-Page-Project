@@ -93,4 +93,19 @@ ul {
 .Squares {
     display: flex;
     justify-content: center;
+    gap: 20px;
+}
+
+.png {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.text {
+    text-align: center;
+    color: #1f2937;
+    font-size: 18px;
 }
